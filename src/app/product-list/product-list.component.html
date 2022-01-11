@@ -1,0 +1,20 @@
+<div class="cards">
+  <div class="card" *ngFor="let product of products">
+    <div class="header">
+      {{ product.name }}
+    </div>
+    <div class="content">
+      <p>
+        {{ product.description }}
+      </p>
+    </div>
+    <div class="footer">
+      <button class="add">
+        <i class="material-icons">add</i>Add
+      </button>
+      <button class="remove">
+        <i class="material-icons">delete</i>
+      </button>
+    </div>
+  </div>
+</div>
