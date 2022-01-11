@@ -40,3 +40,10 @@
   background: none;
   border: 1px solid var(--danger);
 }
+
+.add {
+  background-color: var(--primary);
+}
+.delete {
+  background-color: var(--danger);
+}
